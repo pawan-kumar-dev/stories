@@ -1,0 +1,153 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  width: 100%;
+}
+header {
+  width: 100%;
+  height: 80px;
+  z-index: 90;
+  padding: 16px 78px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px #ccc;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  font-family: Open Sans, sans-serif;
+  box-sizing: border-box;
+}
+.logoText {
+  margin-right: 60px;
+}
+.logo {
+  width: 130px;
+  color: #0084ff;
+  margin-top: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.9px;
+  text-align: left;
+}
+.storyText {
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: 0.9px;
+  color: #000;
+}
+.categories {
+  color: #000;
+}
+.categoryImage {
+  padding-top: 0;
+  padding-left: 8px;
+}
+.categoryContainer {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-top: 16px;
+}
+main {
+  padding: 30px;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.trendingPost {
+  color: #000;
+  font-weight: 600;
+  margin: 0;
+}
+.filter {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.filter p {
+  display: inline-block;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+.filterImage {
+  margin-right: 20px;
+  height: 40px;
+}
+.filterBoxes {
+  display: inline-block;
+  padding: 6px 14px;
+  width: auto;
+  color: #0084ff;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+}
+.activeFilter {
+  color: #fff;
+  background-color: #0084ff;
+}
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card {
+  width: 29%;
+  display: inline-block;
+  border: 1px solid rgba(0, 168, 255, 0.3);
+  border-radius: 6px;
+  margin: 30px 15px;
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+}
+.card img {
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  height: 176px;
+}
+.cardTitle {
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  font-weight: 600;
+}
+.details {
+  padding: 10px 24px;
+}
+.name {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  padding-top: 4px;
+  color: #0096ff;
+}
+.date {
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0, 7);
+}
+.desc {
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+  color: rgba(0, 0, 0, 0, 6);
+  margin: 4px 0;
+}
+footer {
+  padding: 80px 16%;
+  background-color: #172146;
+  box-sizing: border-box;
+}
